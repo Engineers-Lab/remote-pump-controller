@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:pump_ctrl_app/screens/dashboard_screen.dart';
 
 enum AuthMode {
   signIn, // Index 0
@@ -36,7 +37,9 @@ class WelcomeScreen extends StatelessWidget {
             SizedBox(height: 24),
             // TODO : Implement the sign in and signUp fields with tabs
             TextButton(
-              onPressed: () {},
+              onPressed: () {
+                Navigator.of(context).push(MaterialPageRoute(builder: (context) => DashboardScreen()));
+              },
               child: Text(
                 "Proceed as Guest",
                 style: TextStyle(fontWeight: FontWeight.bold, decoration: TextDecoration.underline),
