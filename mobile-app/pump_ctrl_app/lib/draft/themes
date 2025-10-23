@@ -1,0 +1,17 @@
+**dark**
+"primary": "#0A4D68",
+"background-light": "#F5F5F5",
+"background-dark": "#101c22",
+"accent": "#00A896",
+"light-accent": "#B4D4FF",
+"text-light": "#333333",
+"text-dark": "#E5E7EB"
+
+**light**
+"primary": "#0A4D68",
+"background-light": "#F5F5F5",
+"background-dark": "#101c22",
+"accent": "#00A896",
+"light-accent": "#B4D4FF",
+"text-light": "#333333",
+"text-dark": "#E5E7EB"
